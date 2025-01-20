@@ -59,7 +59,7 @@ DataForge solves this problem by:
 ![Screenshot 2025-01-21 020406](https://github.com/user-attachments/assets/83382acd-71d3-42e6-a7c1-847a57d9a1f0)
 ![Screenshot 2025-01-21 020455](https://github.com/user-attachments/assets/efb57d88-b84e-42b3-a968-cc4b2ab92d1b)
 ![Screenshot 2025-01-21 020529](https://github.com/user-attachments/assets/491d8eb7-9b68-4134-8c99-04f3f3027802)
-![Screenshot 2025-01-21 020805](https://github.com/user-attachments/assets/527f5d2f-258f-42f6-9f78-559cb9a6ecf6)
+![Screenshot 2025-01-21 020915](https://github.com/user-attachments/assets/06d46a94-1615-49a4-80ce-b5dcd880b75c)
 ![Screenshot 2025-01-21 020751](https://github.com/user-attachments/assets/e638a212-82fe-4efe-9d10-0b02331c6719)
 ![Screenshot 2025-01-21 020601](https://github.com/user-attachments/assets/0ae375a0-0823-4950-807e-af71984db943)
 ![Screenshot 2025-01-21 020624](https://github.com/user-attachments/assets/25205190-f542-4ab5-803b-18d3e2fc21eb)
