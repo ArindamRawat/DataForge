@@ -36,8 +36,11 @@ DataForge solves this problem by:
      - **NFT Market Analysis**: Understand trends, pricing behaviors, and volume changes.
      - **AI Model Training**: Use the dataset to train models for tasks like risk analysis, wash trading detection, and other fraud detection.
      - **Research and Data Mining**: Explore NFT collection performance, liquidity, and volatility across different blockchains and marketplaces.
+     - **Visualization**: 
+     - DataForge offers an interactive and user-friendly way to visualize your NFT collection data using **React Data Table**. By importing `DataTable` from the `react-data-table-component`, users can easil             view, filter, and sort through the dataset in a table format.
+     - This feature allows users to explore various metrics such as volume, floor price, and more in a dynamic table that can be adjusted according to their needs.
 
-## Features
+## Future Scope
 
 - **Comprehensive Data**: Data on 1000 NFT collections including metrics such as floor price, volume, sales count, and more.
 - **Excel File Download**: Receive the data in an easily accessible Excel file format.
