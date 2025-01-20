@@ -38,6 +38,13 @@ const HeroSection = () => {
           DataForge is a comprehensive tool for generating detailed NFT collection analytics using the BitsCrunch API. Simply specify the number of collections you want to analyze, and get an Excel file with insights on sales, volume, floor price, and more. Ideal for developers, researchers, and analysts, DataForge streamlines access to valuable NFT data for better decision-making and visualization.
         </MotionComponent>
         <MotionComponent
+          as="p"
+          variants={textVariants}
+          className="max-w-[54ch] text-clamp-14-20 leading-[1.875rem] text-red-600 mt-4"
+        >
+          Note: If you want to get data for more than 1000 rows, a payment of 50 BCUT is required.
+        </MotionComponent>
+        <MotionComponent
           as="a"
           variants={textVariants}
           whileHover={{ scale: 1.02 }}
