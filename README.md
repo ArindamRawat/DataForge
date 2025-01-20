@@ -5,7 +5,8 @@
 DataForge is a powerful web application designed to bridge the gap in the NFT analytics space. The NFT market is booming, yet there remains a lack of comprehensive, easily accessible data for NFT collections. Many traders, researchers, and analysts face challenges in obtaining data related to sales, volume, floor prices, and other key metrics. **DataForge** aims to solve this problem by aggregating and organizing essential NFT collection data into a format that is easy to analyze, explore, and utilize for various purposes, from market analysis to training AI models for tasks like risk analysis and fraud detection.
 
 ## Demo
-- Website Link - (Link)[https://dataforge-xnfw.onrender.com/]
+- Website Link - [Link](https://dataforge-xnfw.onrender.com/)
+- Youtube Video - [Link](https://youtu.be/M_fNwulVszY)
 
 ### Why is DataForge Needed?
 
