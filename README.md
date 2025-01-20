@@ -10,7 +10,7 @@ DataForge is a powerful web application designed to bridge the gap in the NFT an
    - Youtube Video - [Link](https://youtu.be/M_fNwulVszY)
 
 
-### Why is DataForge Needed?
+## Why is DataForge Needed?
 
 The NFT ecosystem has grown rapidly, but the data landscape remains fragmented and insufficient for in-depth analysis. NFT data is often difficult to aggregate, especially for less popular marketplaces or for mixed datasets from various blockchains. Current tools may not provide the granularity or breadth of data necessary to perform detailed analyses or build reliable models. 
 
