@@ -27,7 +27,7 @@ const Files = () => {
           setUserId(userData._id); // Set the user ID
           
           // Fetch datasets for the user
-          const datasetsResponse = await fetch(`http://127.0.0.1:5000/datasets?userId=${userData._id}`, {
+          const datasetsResponse = await fetch(`https://dataforge-xlmw.onrender.com/datasets?userId=${userData._id}`, {
             method: "GET",
             headers: {
               "Content-Type": "application/json",
@@ -57,7 +57,7 @@ const Files = () => {
   // Function to download a file
   const downloadFile = async (fileId, filename) => {
     try {
-      const response = await fetch(`http://127.0.0.1:5000/fetch-file/${fileId}`, {
+      const response = await fetch(`https://dataforge-xlmw.onrender.com/fetch-file/${fileId}`, {
         method: "GET",
       });
 

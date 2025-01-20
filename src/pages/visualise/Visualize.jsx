@@ -12,7 +12,7 @@ const Visualize = () => {
   useEffect(() => {
     const fetchDataset = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/fetch-dataset/${fileId}`, {
+        const response = await fetch(`https://dataforge-xlmw.onrender.com/fetch-dataset/${fileId}`, {
           method: "GET",
         });
 

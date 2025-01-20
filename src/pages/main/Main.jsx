@@ -60,7 +60,7 @@ const Main = () => {
 
     setIsLoading(true);
     try {
-      const response = await fetch("http://localhost:5000/generate", {
+      const response = await fetch("https://dataforge-xlmw.onrender.com/generate", {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
