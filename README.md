@@ -97,14 +97,6 @@ DataForge is a web-based application, so no installation is required. Simply vis
 
 Using the data from DataForge, you could create a risk analysis model to detect suspicious wash trading behavior across multiple NFT collections. By analyzing patterns in the sales volume, frequency of trades, and price fluctuations, you could identify potential wash trading activities and flag them for further investigation.
 
-## Contributing
-
-We welcome contributions to improve DataForge. If you have ideas for new features, improvements, or bug fixes, please open an issue or submit a pull request. Your feedback is invaluable in shaping the future of the platform.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-For any questions or support, please contact us at [support@datforge.com](mailto:support@datforge.com).
