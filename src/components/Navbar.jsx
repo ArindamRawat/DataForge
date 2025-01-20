@@ -113,7 +113,7 @@ const Navbar = () => {
 
   return (
     <div style={styles.navbar}>
-      <div style={styles.logo}>DataForge</div>
+      <div style={styles.logo}><a href="/Main">DataForge</a></div>
       <div style={styles.rightSection}>
         {userDetails ? (
           <>

@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../../components/Navbar";
 import './Files.css'
+import {useNavigate} from 'react-router-dom'
 
 const Files = () => {
   const [datasets, setDatasets] = useState([]); // To store the list of user datasets
   const [isLoading, setIsLoading] = useState(true); // To show a loading state
   const [error, setError] = useState(null); // To handle errors
   const [userId, setUserId] = useState(null); // To store the user ID
-
+  const navigate=useNavigate();
   // Fetch user details and datasets on component mount
   useEffect(() => {
     const fetchUserDetailsAndDatasets = async () => {
@@ -97,34 +98,36 @@ const Files = () => {
   <h1 id="filespage-header">Your Generated Datasets</h1>
   {datasets.length > 0 ? (
     <div className="filespage-dataset-container">
-      {datasets.map((dataset) => (
-        <div key={dataset.fileId} className="filespage-dataset-item">
-          <p>
+{datasets.map((dataset) => (
+    <div key={dataset.fileId} className="filespage-dataset-item">
+        <p>
             <strong>Type:</strong> {dataset.datasetType}
-          </p>
-          <p>
+        </p>
+        <p>
             <strong>Generated On:</strong>{" "}
             {new Date(dataset.timestamp).toLocaleString()}
-          </p>
-          <p>
+        </p>
+        <p>
             <strong>Number of Entries:</strong> {dataset.numEntries}
-          </p>
-          <button
-            onClick={() =>
-              downloadFile(dataset.fileId, `dataset_${dataset.datasetType}.xlsx`)
-            }
-            className="filespage-button"
-          >
-            Download
-          </button>
-          <button
-              onClick={() => navigate(`/visualize/${dataset.fileId}`)}
-              className="filespage-button"
-            >
-              Visualize
-            </button>
-        </div>
-      ))}
+        </p>
+        <div className="filespage-button-container">
+    <button
+        onClick={() => downloadFile(dataset.fileId, `dataset_${dataset.datasetType}.xlsx`)}
+        className="filespage-button"
+    >
+        Download
+    </button>
+    <button
+        onClick={() => navigate(`/visualize/${dataset.fileId}`)}
+        className="filespage-button"
+    >
+        Visualize
+    </button>
+</div>
+
+    </div>
+))}
+
       {/* Add "+" container */}
       <div className="filespage-add-container">
         <a href="/Main">+</a>
