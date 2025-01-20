@@ -51,7 +51,7 @@ const Navbar = () => {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      padding: '10px 20px', // Adjust padding for better containment
+      padding: '20px 20px', // Adjust padding for better containment
       background: 'rgba(255, 255, 255, 0.05)',
       borderBottom: '2px solid rgba(255, 255, 255, 0.1)',
       boxSizing: 'border-box', // Prevent overflow due to padding

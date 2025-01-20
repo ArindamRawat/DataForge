@@ -1,0 +1,112 @@
+/* Visualize Page Container */
+.visualize-container {
+    background: linear-gradient(270deg, #1C2230, #151F2B, #0f1117);
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Page Header */
+.visualize-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #58A6FF;
+    margin-bottom: 10px;
+}
+
+.visualize-header h2 {
+    font-size: 2.5rem;
+    color: #58A6FF;
+    margin-bottom: 10px;
+}
+
+.visualize-header p {
+    font-size: 1rem;
+    color: #a9b2c3;
+}
+
+/* Data Table Styling */
+.visualize-table-container {
+    width: 100%;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.05); /* Glassmorphic effect */
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #ffffff;
+}
+
+.visualize-data-table {
+    background: transparent;
+    color: #ffffff;
+    font-size: 0.95rem;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Spacing between rows */
+}
+
+.visualize-data-table th {
+    text-align: left;
+    padding: 10px;
+    background: #151F2B;
+    color: #58A6FF;
+    font-weight: bold;
+}
+
+.visualize-data-table td {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px; /* Rounded cells */
+}
+
+.visualize-data-table tbody tr:hover {
+    background: rgba(88, 166, 255, 0.1); /* Subtle hover effect */
+    transition: background 0.3s ease;
+}
+
+/* Loading Indicator */
+.visualize-loading {
+    font-size: 1.2rem;
+    color: #a9b2c3;
+}
+
+/* Pagination Buttons */
+.visualize-pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.visualize-pagination button {
+    padding: 10px 20px;
+    background: #5873FB;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.visualize-pagination button:hover {
+    background: #00b0fe;
+}
+
+.visualize-pagination button:disabled {
+    background: #374151;
+    cursor: not-allowed;
+}
+
+/* Selectable Rows */
+.visualize-selectable-row {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.visualize-selectable-row:hover {
+    background: rgba(88, 166, 255, 0.2);
+}
