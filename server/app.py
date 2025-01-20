@@ -24,7 +24,7 @@ API_KEY = "316dd88ae8840897e1f61160265d1a3f"
 BASE_URL = "https://api.unleashnfts.com/api/v2/nft/collection/"
 
 # Load the initial dataset containing contract addresses
-DATASET_PATH = "FInalDataset-1000NFTS.xlsx"  # Replace with the correct path to your dataset
+DATASET_PATH = "./FInalDataset-1000NFTS.xlsx"  # Replace with the correct path to your dataset
 data = pd.read_excel(DATASET_PATH)
 
 
