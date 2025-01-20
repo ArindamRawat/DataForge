@@ -17,7 +17,7 @@ DataForge solves this problem by:
 ## How DataForge Works
 
 1. **Input Data**:
-   - DataForge uses a predefined list of **1000 unique NFT collection contract addresses**. These addresses are sourced from bitsCrunch API.
+   - DataForge uses a predefined list of **1000 unique NFT contract addresses**. These addresses are sourced from various prominent NFT collections across multiple blockchains.
    
 2. **API Integration**:
    - The contract addresses are passed to the **BitsCrunch API**. This API provides rich, real-time data about each collection, such as sales volume, floor price, and other relevant metrics.
@@ -36,17 +36,17 @@ DataForge solves this problem by:
      - **NFT Market Analysis**: Understand trends, pricing behaviors, and volume changes.
      - **AI Model Training**: Use the dataset to train models for tasks like risk analysis, wash trading detection, and other fraud detection.
      - **Research and Data Mining**: Explore NFT collection performance, liquidity, and volatility across different blockchains and marketplaces.
-     - **Visualization**: 
-     - DataForge offers an interactive and user-friendly way to visualize your NFT collection data using **React Data Table**. By importing `DataTable` from the `react-data-table-component`, users can easil             view, filter, and sort through the dataset in a table format.
-     - This feature allows users to explore various metrics such as volume, floor price, and more in a dynamic table that can be adjusted according to their needs.
 
-## Future Scope
+## Features
 
 - **Comprehensive Data**: Data on 1000 NFT collections including metrics such as floor price, volume, sales count, and more.
 - **Excel File Download**: Receive the data in an easily accessible Excel file format.
 - **Customizable Data**: Future updates will allow users to customize their data request by adding or removing specific metrics.
 - **Blockchain & Marketplace Diversity**: DataForge is designed to integrate with various blockchains and NFT marketplaces, offering insights not just from Ethereum and OpenSea, but also from other blockchains and platforms.
 - **Affordable Data Access**: Access up to 1000 unique collections for free, with a small fee (50 BCUT tokens) to retrieve larger datasets.
+- **Visualization**: 
+   - DataForge offers an interactive and user-friendly way to visualize your NFT collection data using **React Data Table**. By importing `DataTable` from the `react-data-table-component`, users can easily view, filter, and sort through the dataset in a table format.
+   - This feature allows users to explore various metrics such as volume, floor price, and more in a dynamic table that can be adjusted according to their needs.
 
 ## Future Scope
 
