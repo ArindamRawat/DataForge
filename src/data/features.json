@@ -1,0 +1,33 @@
+{
+  "features": [
+    {
+      "title": "Analyze NFT Collections Effortlessly",
+      "description": "Leverage the power of DataForge to generate comprehensive analytics for your NFT collections with just a few clicks.",
+      "imageUrl": "icon-access-anywhere.svg",
+      "width": 84,
+      "height": 77
+    },
+    {
+      "title": "Reliable and Secure Data",
+      "description": "Utilize BitsCrunch API for trustworthy and secure NFT analytics, ensuring accuracy and reliability for your research.",
+      "imageUrl": "icon-security.svg",
+      "width": 70,
+      "height": 88
+    },
+    {
+      "title": "Streamlined Data Processing",
+      "description": "Process thousands of NFT contracts in chunks and get actionable insights in real time without hassle.",
+      "imageUrl": "icon-collaboration.svg",
+      "width": 84,
+      "height": 69
+    },
+    {
+      "title": "Export Analytics with Ease",
+      "description": "Generate and download detailed Excel reports of NFT collection analytics for your research and analysis needs.",
+      "imageUrl": "icon-any-file.svg",
+      "width": 91,
+      "height": 64
+    }
+  ]
+  
+}

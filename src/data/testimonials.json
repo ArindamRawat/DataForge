@@ -1,0 +1,22 @@
+{
+  "testimonials": [
+    {
+      "author": "Alice Johnson",
+      "position": "Data Scientist",
+      "testimonial": "DataForge has revolutionized the way I analyze NFT collections. It provides structured, reliable data that saves me hours of manual research every week.",
+      "image": "profile-1.jpg"
+    },
+    {
+      "author": "Bob Smith",
+      "position": "Blockchain Developer",
+      "testimonial": "The integration with BitsCrunch API is seamless. DataForge is a powerful tool for anyone working with NFT data and needs accurate insights fast.",
+      "image": "profile-2.jpg"
+    },
+    {
+      "author": "Charlie Lee",
+      "position": "NFT Researcher",
+      "testimonial": "I’ve used several analytics tools for NFTs, but DataForge’s simplicity and speed are unmatched. It's a game-changer for NFT analysis.",
+      "image": "profile-3.jpg"
+    }
+  ]
+}
