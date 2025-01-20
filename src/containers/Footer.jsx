@@ -1,6 +1,4 @@
-import logo from "../assets/images/logo.png";
 import MotionComponent from "../components/MotionComponent";
-import { motion } from "framer-motion";
 import { staggerContainer, textVariants } from "../utils/motion";
 
 const navigation = [
@@ -18,11 +16,7 @@ const HeroSection = () => {
     <footer className="bg-dark-blue-footer pt-[12.375rem] lg:pl-[2.4375rem]">
       <div className="mx-auto max-w-[81.5rem] px-8">
         <MotionComponent as="a" href="#" className="inline-block">
-        <img
-  src={logo}
-  alt="DataForge"
-  style={{ width: "250px", height: "200px" }}
-/>
+<h1 className="FooterHead">DataForge</h1>
 
         </MotionComponent>
         <MotionComponent

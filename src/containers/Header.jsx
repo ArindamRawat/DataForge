@@ -1,8 +1,8 @@
-import logo from "../assets/images/logo.png";
 import MotionComponent from "../components/MotionComponent";
 import { simpleAnimationVariants } from "../utils/motion";
 import { staggerContainer, textVariants } from "../utils/motion";
-
+import './Header.css';
+ 
 const Header = () => {
   const links = [
     { name: "Home", href: "#home" },
@@ -12,25 +12,15 @@ const Header = () => {
   ];
 
   return (
-    <header className="font-railway mx-auto flex max-w-[84rem] flex-wrap items-center justify-center gap-8 px-8 pt-8 text-base md:justify-between lg:pt-[4.5625rem]">
-      <a
-        href="#main"
-        className="absolute left-0 z-50 m-3 -translate-x-[150%] border-2 border-white bg-dark-blue-intro p-3 transition focus:translate-x-0"
-      >
-        Skip to main content
-      </a>
+    <header className="header font-railway mx-auto flex max-w-[84rem] flex-wrap items-center justify-center gap-8 px-8 pt-8 text-base md:justify-between lg:pt-[4.5625rem]">
       <MotionComponent as="a" variants={simpleAnimationVariants} href="#">
-        <img
-          src={logo}
-          alt="DataForge"
-          style={{ width: "200px", height: "200px" }}
-        />
+        <h1 className="main-heading">DataForge</h1>
       </MotionComponent>
       <nav aria-label="Main">
         <MotionComponent
           as="ul"
           variants={staggerContainer}
-          className="flex items-center gap-[3.5625rem]"
+          className="nav flex items-center gap-[3.5625rem]"
           role="list"
         >
           {links.map((link, index) => (
