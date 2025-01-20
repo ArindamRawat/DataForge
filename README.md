@@ -17,7 +17,7 @@ DataForge solves this problem by:
 ## How DataForge Works
 
 1. **Input Data**:
-   - DataForge uses a predefined list of **1000 unique NFT contract addresses**. These addresses are sourced from various prominent NFT collections across multiple blockchains.
+   - DataForge uses a predefined list of **1000 unique NFT collection contract addresses**. These addresses are sourced from bitsCrunch API.
    
 2. **API Integration**:
    - The contract addresses are passed to the **BitsCrunch API**. This API provides rich, real-time data about each collection, such as sales volume, floor price, and other relevant metrics.
